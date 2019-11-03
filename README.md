@@ -5,7 +5,7 @@ Use Plex API to audit duplicate movies and tv shows, provider user ability to de
 
 ## Usage
 
-### TV shows is currently in development, not working
+### Movies
 
 ```python movies.py```
 
@@ -42,3 +42,15 @@ Amélie
 
 Exiting... Saved 0.68GB
 ```
+
+## TV Shows
+
+```python tv.py```
+
+This is interactive, it will present you with the operation to be completed and you can accept, deny, or quit the program. It will also display disk space saved per item and total from the current run when it is completed. The difference here is that if you skip (n) it will log this skip, and on the next run it will not prompt you for this entry. This was to help with shows you dont want to delete yet, but also do not want to fix (laziness).
+
+The output is the same as for movies.
+
+## TODO
+
+ - Add option to split selection

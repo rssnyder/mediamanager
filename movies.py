@@ -1,8 +1,8 @@
 from plexapi.server import PlexServer
-import time
+import time, os
 
-baseurl = 'http://192.168.1.2:32400'
-token = ''
+baseurl = os.getenv('PLEX_SERVER')
+token = os.getenv('PLEX_TOKEN')
 plex = PlexServer(baseurl, token)
 
 totalsaved = 0.0
