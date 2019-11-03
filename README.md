@@ -1,9 +1,12 @@
 # mediamanager
 
 ## Goal
-Use Plex API to audit duplicate movies and tv shows, provider user ability to delete the lesser quality file.
+
+Use Plex API to audit duplicate movies and tv shows, provide the user with the ability to delete the lesser quality file.
 
 ## Usage
+
+Set `PLEX_SERVER` and `PLEX_TOKEN` in your environment. Server should be in format of `http://myurlOrIPhere:32400` and token can be recived from [here](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)
 
 ### Movies
 
